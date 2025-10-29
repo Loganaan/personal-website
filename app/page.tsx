@@ -83,55 +83,6 @@ export default function Home() {
             </div>
           </div>
         </nav>
-
-        {/* Highlights */}
-        <section className="mb-20">
-          <div className="flex items-center gap-3 mb-8">
-            <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">Recent Highlights</h2>
-            <div className="flex-1 h-px bg-gradient-to-r from-zinc-200 dark:from-zinc-800 to-transparent"></div>
-          </div>
-          <div className="space-y-4">
-            <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-xl p-6 hover:shadow-md transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-lg text-zinc-900 dark:text-zinc-100 mb-1">
-                    Software Engineer Intern at Flint Hills Resources
-                  </h3>
-                  <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-3">May 2025 - Aug 2025</p>
-                  <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Built enterprise React applications with TypeScript, Material-UI, and Redux. 
-                    Developed Neo4j Cypher queries and RESTful APIs with advanced filtering and pagination.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-xl p-6 hover:shadow-md transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-amber-100 dark:bg-amber-900/30 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-lg text-zinc-900 dark:text-zinc-100 mb-1">
-                    Winner - Hack Cats 2025 & NASA Space Apps Challenge 2025
-                  </h3>
-                  <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-3">October 2025</p>
-                  <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
-                    Built a Next.js job interview simulator with real-time voice interaction and an 
-                    interactive asteroid-impact simulator with 2D/3D visualizations using CesiumJS.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         
         {/* Skills Section */}
         <section className="mb-20">
