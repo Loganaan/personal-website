@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TypeWriter from "./components/TypeWriter";
 
 export default function Home() {
   return (
@@ -11,9 +12,11 @@ export default function Home() {
               Available for Summer 2026 Opportunities
             </span>
           </div>
-          <h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6 bg-clip-text">
-            Logan Crotchett
-          </h1>
+          <TypeWriter 
+            text="Logan Crotchett"
+            delay={100}
+            className="text-6xl sm:text-7xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6 bg-clip-text min-h-[4.5rem] sm:min-h-[5.25rem]"
+          />
           <p className="text-2xl sm:text-3xl font-light text-zinc-700 dark:text-zinc-300 mb-6">
             Software Engineer & Computer Science Student
           </p>
