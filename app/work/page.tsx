@@ -162,41 +162,6 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Skills */}
-        <section className="mb-24">
-          <h2 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-10">Skills</h2>
-          
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-3">Programming Languages</h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                TypeScript, C#, C++, SQL, Cypher, Python, Visual Basic
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-3">Web Development</h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                React, Next.js, HTML, CSS, JavaScript, ASP.NET Core MVC, Node.js
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-3">Tools & Technologies</h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                Linux, Neo4j, Entity Framework, jQuery, Bootstrap, Material-UI, GitHub, Git, Redux, Firebase
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-3">Methodologies</h3>
-              <p className="text-zinc-600 dark:text-zinc-400">
-                Agile Development, REST APIs, Graph Databases, Full-Stack Development
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Footer */}
         <footer className="border-t border-zinc-200 dark:border-zinc-800 pt-10 mt-20">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
