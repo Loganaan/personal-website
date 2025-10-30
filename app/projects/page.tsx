@@ -23,8 +23,13 @@ export default function Projects() {
         <section className="mb-24">
           <div className="space-y-16">
             {/* Meteor Madness */}
-            <div className="group">
-              <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+            <a 
+              href="https://nasa-meteor-madness-wine.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group block"
+            >
+              <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-xl hover:border-zinc-300 dark:hover:border-zinc-600 transition-all duration-300 hover:-translate-y-1">
                 <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900 p-4">
                   <Image
                     src="/Meteor_Madness.png"
@@ -53,11 +58,16 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* TechReady */}
-            <div className="group">
-              <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
+            <a 
+              href="https://www.techready.tech/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group block"
+            >
+              <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-xl hover:border-zinc-300 dark:hover:border-zinc-600 transition-all duration-300 hover:-translate-y-1">
                 <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900 p-4">
                   <Image
                     src="/Tech_Ready.png"
@@ -87,7 +97,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </section>
 
