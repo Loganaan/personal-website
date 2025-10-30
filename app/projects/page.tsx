@@ -112,6 +112,14 @@ export default function Projects() {
                 Home
               </Link>
               <a 
+                href="/Logan_Crotchett_resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+              >
+                Resume
+              </a>
+              <a 
                 href="#top" 
                 className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
               >
