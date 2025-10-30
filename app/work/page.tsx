@@ -103,26 +103,6 @@ export default function Work() {
             <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">
               BSCS - Computer Science | Minor in Mathematics | 3.6 GPA
             </p>
-            <p className="text-zinc-600 dark:text-zinc-400 mb-6">
-              During my studies, I&apos;ve developed a strong foundation in computer science fundamentals and gained hands-on experience through various projects and competitions.
-            </p>
-            
-            <p className="text-zinc-600 dark:text-zinc-400 mb-4">I developed quite a few projects while pursuing my degree.</p>
-            
-            <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-              <li className="flex gap-3">
-                <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                <span>A job interview simulator with real-time voice interaction using Deepgram, ElevenLabs, and Google Gemini (Hack Cats 2025 Winner)</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                <span>An interactive asteroid-impact simulator with 2D maps and 3D globe visualization using CesiumJS (NASA Space Apps Challenge 2025 Winner)</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                <span>A dimensioning template generator in Visual Basic to streamline the dimensioning process at NIAR</span>
-              </li>
-            </ul>
           </div>
         </section>
 
