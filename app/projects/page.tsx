@@ -22,15 +22,15 @@ export default function Projects() {
         {/* Projects */}
         <section className="mb-24">
           <div className="space-y-16">
-                        {/* Meteor Madness */}
+            {/* Meteor Madness */}
             <div className="group">
               <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900">
+                <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900 p-4">
                   <Image
                     src="/Meteor_Madness.png"
                     alt="Meteor Madness - Asteroid Impact Simulator"
                     fill
-                    className="object-cover"
+                    className="object-contain p-4"
                   />
                 </div>
                 <div className="p-8">
@@ -58,12 +58,12 @@ export default function Projects() {
             {/* TechReady */}
             <div className="group">
               <div className="bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900">
+                <div className="relative w-full aspect-video bg-zinc-100 dark:bg-zinc-900 p-4">
                   <Image
                     src="/Tech_Ready.png"
                     alt="TechReady - Job Interview Simulator"
                     fill
-                    className="object-cover"
+                    className="object-contain p-4"
                     priority
                   />
                 </div>
