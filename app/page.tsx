@@ -21,7 +21,7 @@ export default function Home() {
             Software Engineer & Computer Science Student
           </p>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mb-10 leading-relaxed">
-            Building enterprise applications with React, TypeScript, and modern web technologies. 
+            Building applications with React, TypeScript, and various web technologies. 
             Expected to graduate from Wichita State University in May 2026 with a degree in Computer Science.
           </p>
           
@@ -104,7 +104,7 @@ export default function Home() {
         </nav>
         
         {/* Skills Section */}
-        <section className="mb-20">
+        <section>
           <div className="flex items-center gap-3 mb-8">
             <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">Technologies</h2>
             <div className="flex-1 h-px bg-gradient-to-r from-zinc-200 dark:from-zinc-800 to-transparent"></div>
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-zinc-200 dark:border-zinc-800 pt-10 mt-20">
+        <footer className="border-t border-zinc-200 dark:border-zinc-800 pt-10 mt-10">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
               © 2025 Logan Crotchett
