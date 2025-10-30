@@ -47,7 +47,7 @@ export default function Projects() {
                   </div>
                   <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-6">NASA Space Apps Challenge 2025</p>
                   <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
-                    An asteroid impact simulator that shows what happens when space rocks hit Earth. Built 2D impact maps with react-leaflet and Turf.js, plus a 3D globe in CesiumJS with camera controls and terrain visualization. Pulls real NASA data through serverless API routes.
+                    An asteroid impact simulator that shows what happens when space rocks hit Earth. Built 2D impact maps with react leaflet and Turf.js, plus a 3D globe in CesiumJS with camera controls and terrain visualization. Pulls real NASA data through serverless API routes.
                   </p>
                   <div className="flex flex-wrap gap-2 mt-6">
                     {['Next.js', 'React', 'TypeScript', 'Node.js', 'CesiumJS', 'react-leaflet', 'Turf.js', 'NASA API'].map((tech) => (
@@ -86,7 +86,7 @@ export default function Projects() {
                   </div>
                   <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-6">Hack Cats 2025</p>
                   <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
-                    A job interview practice app with real-time voice interaction. Uses Deepgram for speech-to-text, ElevenLabs for text-to-speech, and Google Gemini to generate personalized questions and feedback. Firebase handles auth and saves your session data.
+                    A job interview practice app with real time voice interaction. Uses Deepgram for speech to text, ElevenLabs for text to speech, and Google Gemini to generate questions and feedback. Firebase handles auth and saves your session data.
                   </p>
                   <div className="flex flex-wrap gap-2 mt-6">
                     {['Next.js', 'React', 'TypeScript', 'Deepgram', 'ElevenLabs', 'Google Gemini', 'Firebase'].map((tech) => (
