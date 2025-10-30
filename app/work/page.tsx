@@ -16,7 +16,6 @@ export default function Work() {
             Back to home
           </Link>
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">Work Experience</h1>
-          <p className="text-xl text-zinc-600 dark:text-zinc-400">My professional journey in software engineering</p>
         </div>
 
         {/* Work Experience */}
