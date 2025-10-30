@@ -90,7 +90,7 @@ export default function Home() {
         {/* Skills Section */}
         <section className="mb-20">
           <div className="flex items-center gap-3 mb-8">
-            <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">Tech Stack</h2>
+            <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">Technologies</h2>
             <div className="flex-1 h-px bg-gradient-to-r from-zinc-200 dark:from-zinc-800 to-transparent"></div>
           </div>
           <div className="flex flex-wrap gap-2">
