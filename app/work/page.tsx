@@ -32,24 +32,9 @@ export default function Work() {
                 </span>
               </div>
               <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">Software Engineer Intern</p>
-              <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Built enterprise React applications with TypeScript, Material-UI, and Redux, implementing admin configuration systems and role-based access control with dynamic UI components</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Architected modular frontend components with React and TypeScript, implementing reusable configuration systems and custom hooks for state management across enterprise applications</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Developed Neo4j Cypher queries and RESTful APIs with advanced filtering, sorting, and pagination across complex data relationships using graph database patterns</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Collaborated in an Agile development team, participating in daily stand-ups, sprint planning, code reviews, and team discussions to ensure rapid iteration and work towards business goals</span>
-                </li>
-              </ul>
+              <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Built enterprise React applications using TypeScript, Material-UI, and Redux. Worked on admin configuration systems with role-based access control and dynamic UI components. Developed modular frontend components with custom hooks for state management. Created Neo4j Cypher queries and RESTful APIs with advanced filtering, sorting, and pagination across complex data relationships. Participated in Agile development with daily stand-ups, sprint planning, and code reviews.
+              </p>
             </div>
 
             {/* Student Web Developer */}
@@ -63,16 +48,9 @@ export default function Work() {
                 </span>
               </div>
               <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">Student Web Developer</p>
-              <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Designed and improved a full-stack internal web application utilizing ASP.NET Core MVC architecture, focusing on the optimization of business processes</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Installed and configured Entity Framework to implement CRUD functionality and interactions with the database</span>
-                </li>
-              </ul>
+              <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Designed and improved a full-stack internal web application using ASP.NET Core MVC architecture to optimize business processes. Configured Entity Framework to implement CRUD functionality and database interactions.
+              </p>
             </div>
 
             {/* Student Assistant for Quality Control Lab */}
@@ -86,16 +64,9 @@ export default function Work() {
                 </span>
               </div>
               <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">Student Assistant for Quality Control Lab</p>
-              <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Built custom software in Visual Basic to increase the speed of creating new dimensioning templates by roughly 20%</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Interpreted engineering drawings and utilized Excel to document measurements and create forms based on ASTM criteria</span>
-                </li>
-              </ul>
+              <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Built custom software in Visual Basic to speed up the creation of new dimensioning templates by roughly 20%. Interpreted engineering drawings and used Excel to document measurements and create forms based on ASTM criteria.
+              </p>
             </div>
 
             {/* Qualification Tester */}
@@ -109,16 +80,9 @@ export default function Work() {
                 </span>
               </div>
               <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">Qualification Tester</p>
-              <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Ran tests on Linux-based NetApp software to test firmware for hard drive manufacturers</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-zinc-400 dark:text-zinc-600 mt-1 flex-shrink-0">✦</span>
-                  <span>Frequently communicated with full-time engineers to ensure smooth testing, and helped with any server-related issues</span>
-                </li>
-              </ul>
+              <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                Ran tests on Linux-based NetApp software to validate firmware for hard drive manufacturers. Worked with full-time engineers to ensure smooth testing operations and resolve server-related issues.
+              </p>
             </div>
           </div>
         </section>
