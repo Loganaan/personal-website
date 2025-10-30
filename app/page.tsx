@@ -86,15 +86,20 @@ export default function Home() {
               </p>
             </Link>
             
-            <div className="relative overflow-hidden bg-gradient-to-br from-zinc-100 to-zinc-50 dark:from-zinc-800 dark:to-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-xl p-6">
+            <Link 
+              href="/projects" 
+              className="group relative overflow-hidden bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-xl p-6 hover:border-zinc-400 dark:hover:border-zinc-500 transition-all hover:shadow-lg"
+            >
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">Projects</h3>
-                <span className="text-xs px-2 py-1 bg-zinc-200 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-400 rounded">Coming Soon</span>
+                <svg className="w-5 h-5 text-zinc-400 group-hover:text-zinc-600 dark:group-hover:text-zinc-300 transition-all group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                Explore my latest projects and hackathon wins
+                Explore my latest projects and hackathons
               </p>
-            </div>
+            </Link>
           </div>
         </nav>
         
@@ -105,7 +110,7 @@ export default function Home() {
             <div className="flex-1 h-px bg-gradient-to-r from-zinc-200 dark:from-zinc-800 to-transparent"></div>
           </div>
           <div className="flex flex-wrap gap-2">
-            {['TypeScript', 'React', 'Next.js', 'Node.js', 'C#', 'Python', 'Neo4j', 'Redux', 'Material-UI', 'Tailwind CSS', 'Git', 'ASP.NET Core'].map((skill) => (
+            {['TypeScript', 'React', 'Next.js', 'Node.js', 'C#', 'Python', 'Neo4j', 'Material-UI', 'Tailwind CSS', 'Git', 'ASP.NET Core'].map((skill) => (
               <span key={skill} className="px-4 py-2 bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 rounded-lg text-sm font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors">
                 {skill}
               </span>
