@@ -1,1 +1,1 @@
-My personal website detailing my career experience and means to reach out to me!
+My personal website detailing my career experience and ways to reach out to me!
