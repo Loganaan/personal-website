@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Logan Crotchett - Software Engineer",
-  description: "Software Engineer and Computer Science student building enterprise applications with React, TypeScript, and modern web technologies.",
+  title: "Loganan",
+  description: "Software Engineer who wants a job",
 };
 
 export default function RootLayout({
