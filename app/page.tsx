@@ -106,7 +106,7 @@ export default function Home() {
         <footer className="border-t border-zinc-200 dark:border-zinc-800 pt-10 mt-20">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
-              © 2025 Logan Crotchett. Built with Next.js & Tailwind CSS
+              © 2025 Logan Crotchett
             </p>
             <div className="flex gap-4">
               <a href="mailto:logancrotchett@gmail.com" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
