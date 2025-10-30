@@ -88,10 +88,9 @@ export default function Work() {
         </section>
 
         {/* Education */}
-        <section className="mb-24">
+        <section>
           <h2 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-10">Education</h2>
-          
-          <div className="mb-8">
+          <div>
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-3">
               <h3 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
                 Wichita State University
@@ -100,7 +99,7 @@ export default function Work() {
                 Expected May 2026
               </span>
             </div>
-            <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-4">
+            <p className="text-lg text-zinc-700 dark:text-zinc-300">
               BSCS - Computer Science | Minor in Mathematics | 3.6 GPA
             </p>
           </div>
