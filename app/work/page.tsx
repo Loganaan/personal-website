@@ -5,7 +5,7 @@ export default function Work() {
     <div className="min-h-screen bg-gradient-to-br from-zinc-50 via-white to-zinc-50 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950">
       <div className="max-w-4xl mx-auto px-6 py-12 sm:px-8 sm:py-20">
         {/* Header */}
-        <div className="mb-16">
+        <div>
           <Link 
             href="/" 
             className="inline-flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 mb-10 transition-colors group"
@@ -15,11 +15,11 @@ export default function Work() {
             </svg>
             Back to home
           </Link>
-          <h1 className="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">Work Experience</h1>
         </div>
 
         {/* Work Experience */}
         <section className="mb-24">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-10">Work Experience</h1>
           <div className="space-y-12">
             {/* Software Engineer Intern */}
             <div>
